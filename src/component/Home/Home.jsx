@@ -25,11 +25,11 @@ const Home = () => {
                         <input type='text' placeholder='Dream Destination'/>
                     </div>
                     <div className="distance">
-                        <label htmlFor='dist'>Location</label>
+                        <label htmlFor='dist'>Destance</label>
                         <input type='text' placeholder='11/Meters'/>
                     </div>
                     <div className="price">
-                        <label htmlFor='pri'>Location</label>
+                        <label htmlFor='pri'>price</label>
                         <input type='text' placeholder='50,000-5,00,000 '/>
                     </div>
                     <button className="btn">
