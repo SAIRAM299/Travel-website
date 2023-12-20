@@ -59,7 +59,7 @@
         left: 50%;
         box-shadow: 0 2px 8px 4px rgba(178,178,178,0.45);
 .btn{
-    margin-top: .8rem;
+ margin-top: .8rem;
 }
         .location, .distance, .price,.btn{
             width: 100%;
@@ -69,7 +69,8 @@
                 color: var(--textColor);
                 font-size: 13px;
                 font-weight: 500;
-                padding-bottom: .4rem;
+                padding: .3rem;
+                
 
             }
             input{
