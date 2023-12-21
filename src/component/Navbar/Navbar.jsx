@@ -25,7 +25,7 @@ const moodu=()=>{
                 <div className="heady">
                     <div className="logo">
                         <a href="#" className="logoimg">
-                            <h1 className='flex'><SiYourtraveldottv className='icon' />Atlas</h1>
+                            <h1 className='flex'><SiYourtraveldottv className='icon' />Going Merry</h1>
                         </a>
                     </div>
 
