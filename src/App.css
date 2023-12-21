@@ -57,17 +57,17 @@ li{
 .btn:hover{
     color: var(--whiteColor);
 }
-.seceee{
+.secintro{
     max-width: 70%;
     text-align: center;
     margin: 0 auto 2rem;
 }
-.seceee .secperu{
+.secintro .secperu{
     color: var(--blackColor);
     line-height: 1.5rem;
     padding-bottom: .5rem;
 }
-.seceee p{
+.secintro p{
     font-size: 13px;
     color: var(--textColor);
     font-weight: 500;

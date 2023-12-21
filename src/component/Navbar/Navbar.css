@@ -110,10 +110,10 @@
     }
 }
 }
+}
 .activenavbar{
     left: 0;
 }
-
 
 
 .togynav{
@@ -124,7 +124,6 @@
             color: var(--PrimaryColor);
         }
     }
-}
 }
 }
 }

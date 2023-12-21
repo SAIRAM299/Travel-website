@@ -22,7 +22,7 @@
     margin: auto;
     position: relative;
 
-.seccontain{
+.seccontains{
     .homyname{
         text-align: center;
         .title{
@@ -60,8 +60,12 @@
         box-shadow: 0 2px 8px 4px rgba(178,178,178,0.45);
 .btn{
  margin-top: .8rem;
+ width: 100%;
+ padding: .6rem 1.5rem;
+ color: var(--whiteColor);
+ font-weight: 600;
 }
-        .location, .distance, .price,.btn{
+        .location, .distance, .price{
             width: 100%;
             
             label{

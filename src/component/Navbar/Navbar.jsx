@@ -16,9 +16,6 @@ const moodu=()=>{
     setact('navbar')
 }
 
-
-
-
     return (
         <div>
             <section className='secnav'>
