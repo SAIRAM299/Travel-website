@@ -4,44 +4,46 @@ import { BsArrowLeftShort } from "react-icons/bs";
 import { BsArrowRightShort } from "react-icons/bs";
 import { BsDot } from "react-icons/bs";
 import img1 from "../../Assets/godvalley.jpg";
-// import img2 from "../../Assets/marijones.png";
-// import img3 from "../../Assets/wano.jpg";
-// import img4 from "../../Assets/atlantis.jpg";
-// import img5 from "../../Assets/waterseven.jpg";
+import img2 from "../../Assets/marijones.png";
+import img3 from "../../Assets/wano.jpg";
+import img4 from "../../Assets/atlantis.jpg";
+import img5 from "../../Assets/waterseven.jpg";
 
-// const[cards,setcards]=useState([
-// {
-//     id:1,
-//     imgsrc:img2,
-//     destname:'Celestial Summit',
-//     location:'Mary Geoise',
-//     grade:'legendary'
-// },
-// {
-//     id:2,
-//     imgsrc:img3,
-//     destname:'Celestial Summit',
-//     location:'Mary Geoise',
-//     grade:'legendary'
-// },
-// {
-//     id:3,
-//     imgsrc:img4,
-//     destname:'Celestial Summit',
-//     location:'Mary Geoise',
-//     grade:'legendary'
-// },
-// {
-//     id:4,
-//     imgsrc:img5,
-//     destname:'Celestial Summit',
-//     location:'Mary Geoise',
-//     grade:'legendary'
-// },
-// ])
+
 
 
 const Popular = () => {
+    const[cards,setcards]=useState([
+        {
+            id:1,
+            imgsrc:img2,
+            destname:'Celestial Summit',
+            location:'Mary Geoise',
+            grade:'Legendary'
+        },
+        {
+            id:2,
+            imgsrc:img3,
+            destname:'Jade Fortress',
+            location:'Wano',
+            grade:'Historical'
+        },
+        {
+            id:3,
+            imgsrc:img4,
+            destname:'Athenas Citadel',
+            location:'Amazon Lily',
+            grade:'Mythical'
+        },
+        {
+            id:4,
+            imgsrc:img5,
+            destname:'Wavefront Palace',
+            location:'Water Seven',
+            grade:'Enigmatic'
+        },
+        ])
+
     return (
         <div>
             <section className='popu section contains'>
@@ -61,29 +63,34 @@ const Popular = () => {
 
                     </div>
 
+
+
+
+
                     <div className='maindubby grid'>
-                        {/* {cards.map(()=>(
+                        
+            {cards.map((dd,i)=>(
+     <div className="singledesti" key={i}>
 
-                        ))} */}
-                        <div className="singledesti">
+             <div className="destimg">
 
-<div className="destimg">
-    <img src={img1} alt='god valley' />
-    <div className='info'>
-        <h3>Divin Heven</h3>
-        <p>This Island holds a certain air of Mystery</p>
-        <BsArrowRightShort className='icon' />
-    </div>
+            <img src={dd.imgsrc} alt='god valley' />
 
-</div>
+           <div className='info'>
+          <h3> {dd.destname}</h3>
+          <p>{dd.grade}</p>
+          <BsArrowRightShort className='icon' />
+             </div>
 
-<div className="destfoot">
+           </div>
+
+  <div className="destfoot">
     <div className="num">
-        01
+        0{dd.id}
     </div>
 
     <div className="desttext flex">
-        <h6>God Valley</h6>
+        <h6>{dd.location}</h6>
 
         <span className='flex'>
             <span className='pully'>
@@ -91,11 +98,11 @@ const Popular = () => {
             </span>
             Going Merry
         </span>
+
     </div>
-
 </div>
-
-                    </div>
+   </div>
+ ))}
                 </div>
                 </div>
             </section>
