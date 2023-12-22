@@ -37,6 +37,7 @@
 
 .offers{
     border-radius: 1rem;
+    margin-top: 1rem;
     overflow: hidden;
     padding: .5rem;
     box-shadow:  0 2px 8px 2px rgba(178,178,178,0.45);
@@ -122,13 +123,12 @@
             color: var(--whiteColor);
         }
     }
+    &:hover{
+        transform: translateY(-7px);
+    }
 }
 
-&:hover{
-    transform: translateY(-7px);
-}
-
-        }
+    }
     }
 
 }
