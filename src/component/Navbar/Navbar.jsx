@@ -16,10 +16,21 @@ const moodu=()=>{
     setact('navbar')
 }
 
+const[col,setcol]=useState('heady')
+const headbg=()=>{
+    if(window.scrollY >=10){
+        setcol('heady actiheady')
+    }
+    else{
+        setcol('heady')
+    }
+}
+window.addEventListener('scroll',headbg)
+
     return (
         <div>
             <section className='secnav'>
-                <div className="heady">
+                <div className={col}>
                     <div className="logo">
                         <a href="#" className="logoimg">
                             <h1 className='flex'><SiYourtraveldottv className='icon' />Going Merry</h1>
@@ -34,7 +45,6 @@ const moodu=()=>{
         <li className='navitem'><a href='' className='navlink'>Resources</a></li>
         <li className='navitem'><a href='' className='navlink'>Contact</a></li>
         <li className='navitem'><a href='' className='navlink'>Blog</a></li>
-        <li className='navitem'><a href='' className='navlink'>Home</a></li>
 
 
 <div className="headbut flex">

@@ -9,7 +9,7 @@
     --greyBg:rgb(245,245,245);
     --greyText:rgb(196,190,190);
     --inputColor:rgb(247,218,233);
-    --boxshadow:rgba(178,178,178,0.45);
+    --boxshadow: 0 2px 8px 2px rgba(178,178,178,0.45);
 }
 
 .popu{
