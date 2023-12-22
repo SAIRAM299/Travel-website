@@ -16,8 +16,8 @@ function App() {
       <Navbar/>
       <Home/>
       <Popular/>
-      {/* <Offer/>
-      <About/>
+      <Offer/>
+      {/* <About/>
       <Blog/>
       <Footer/> */}
     </div>

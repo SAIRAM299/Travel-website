@@ -1,0 +1,134 @@
+:root{
+    
+    --PrimaryColor:rgb(241, 50, 184);
+    --HoverColor:rgb(237, 155, 196);
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(0, 0%, 18%);
+    --textColor: rgb(121,121,122);
+    --whiteColorDeam:rgb(237,218,218);
+    --greyBg:rgb(245,245,245);
+    --greyText:rgb(196,190,190);
+    --inputColor:rgb(247,218,233);
+    --boxshadow: 0 2px 8px 2px rgba(178,178,178,0.45);
+}
+.offer{
+
+    .secintro{
+        max-width: 70%;
+        text-align: center;
+        margin: 0 auto 2rem;
+    }
+    .secintro p{
+        font-size: 13px;
+        color: var(--textColor);
+        font-weight: 500;
+    }
+
+    .secintro .secperu{
+        color: var(--blackColor);
+        line-height: 1.5rem;
+        padding-bottom: .5rem;
+    }
+
+    .seccontains{
+
+        .maincontent{
+            gap: 1rem;
+
+.offers{
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: .5rem;
+    box-shadow:  0 2px 8px 2px rgba(178,178,178,0.45);
+
+    .icon{
+        font-size: 20px;
+        color: var(--textColor);
+    }
+    small{
+        font-weight: 500;
+        color: var(--textColor);
+    }
+    .destimg{
+        position: relative;
+        height: 200px;
+        width: 100%;
+        border-radius: 1rem;
+        overflow: hidden;
+        img{
+            height: 100%;
+        }
+
+    .discount{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        padding: 5px 10px;
+        background: var(--PrimaryColor);
+        color: var(--whiteColor);
+        border-radius: 3rem;
+        font-size: 10px;
+        font-weight: 500;
+    }    
+    }
+
+    .offerbody{
+        padding: 1rem;
+        .price{
+            justify-content: space-between;
+        }
+        h4{
+            color: var(--blackColor);
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+        .status{
+            padding: 5px 10px;
+            color: var(--PrimaryColor);
+            background:var(--greyBg);
+            font-size: 10px;
+            font-weight: 600;
+            border-radius: 3rem;
+        }
+    }
+
+
+    .ammy{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 1rem 0;
+        gap: .5rem;
+
+
+        .singleammy{
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: var(--greyBg);
+            gap: .5rem;
+        }
+    }
+
+    .btn{
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding: .6rem;
+        color: var(--whiteColor);
+        font-weight: 600;
+        gap: .5rem;
+        .icon{
+            color: var(--whiteColor);
+        }
+    }
+}
+
+&:hover{
+    transform: translateY(-7px);
+}
+
+        }
+    }
+
+}

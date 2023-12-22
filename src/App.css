@@ -57,21 +57,8 @@ li{
 .btn:hover{
     color: var(--whiteColor);
 }
-.secintro{
-    max-width: 70%;
-    text-align: center;
-    margin: 0 auto 2rem;
-}
-.secintro .secperu{
-    color: var(--blackColor);
-    line-height: 1.5rem;
-    padding-bottom: .5rem;
-}
-.secintro p{
-    font-size: 13px;
-    color: var(--textColor);
-    font-weight: 500;
-}
+
+
 img,video{
     width: 100%;
     height: auto;
