@@ -62,7 +62,7 @@ font-size: 2.5rem;
 
 }
 
-.maindubby{
+.maincontains{
 padding: 2rem 0;
 display: grid;
     gap: 1rem;
@@ -173,5 +173,11 @@ display: grid;
 
     }
 }
+}
+}
+
+@media screen and (min-width:480px){
+.popu{
+    padding-top: 10rem;
 }
 }

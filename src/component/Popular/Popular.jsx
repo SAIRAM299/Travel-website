@@ -67,7 +67,7 @@ const Popular = () => {
 
 
 
-                    <div className='maindubby'>
+                    <div className='maincontains'>
                         
             {cards.map((dd,i)=>(
      <div className="singledesti" key={i}>

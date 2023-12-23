@@ -54,7 +54,7 @@ const Offer = () => {
                     </div>
 
 
-                    <div className="maincontent">
+                    <div className="maincontains">
 
                         {
                             off.map((dd,i) => (

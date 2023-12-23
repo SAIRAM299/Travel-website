@@ -83,3 +83,9 @@ input{
     font-size: 100%;
 }
 
+@media screen and (min-width:556px){
+.maincontains{
+    grid-template-columns: repeat(2,1fr);
+}
+}
+    

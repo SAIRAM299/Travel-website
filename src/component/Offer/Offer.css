@@ -32,7 +32,7 @@
 
     .seccontains{
 
-        .maincontent{
+        .maincontains{
             display: grid;
             gap: 1rem;
 

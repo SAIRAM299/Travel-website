@@ -19,7 +19,7 @@ const Home = () => {
                 </div>
 
                
-                <div className="dubby homes">
+                <div className="dubby ">
                     <div className="location">
                         <label htmlFor='location'>Location</label>
                         <input type='text' placeholder='Dream Destination'/>
