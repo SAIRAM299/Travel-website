@@ -3,7 +3,7 @@ import '../Footer/Footer.css'
 const Footer = () => {
     return (
         <div>
-            footer
+            world is mine
         </div>
     );
 }

@@ -52,7 +52,6 @@
         padding: 2rem;
         background:var(--whiteColor);
         position: absolute;
-        gap: 1rem;
         justify-content: center;
         bottom: -35%;
         transform: translate(-50%);

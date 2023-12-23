@@ -64,14 +64,13 @@ font-size: 2.5rem;
 
 .maindubby{
 padding: 2rem 0;
-gap: 1rem;
-
+display: grid;
+    gap: 1rem;
 
 .singledesti{
     overflow: hidden;
     border-radius: 1rem;
     box-shadow: 0 2px 8px 2px rgba(178,178,178,0.45);
-    margin-bottom: 1rem;
 
     .destimg{
         height: 200px;

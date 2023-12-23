@@ -67,7 +67,7 @@ const Popular = () => {
 
 
 
-                    <div className='maindubby grid'>
+                    <div className='maindubby'>
                         
             {cards.map((dd,i)=>(
      <div className="singledesti" key={i}>

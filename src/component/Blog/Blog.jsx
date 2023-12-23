@@ -45,10 +45,10 @@ const[blogs,setblogs]=useState([
                     <p>Journey to conquire the wealth, fame and power in the world</p>
                 </div>
 
- <div className="maincontains grid">
-
+                <div className="maincontains ">
 {blogs.map((dd,i)=>(
-   <div className="singlepost grid" key={i}>
+    
+   <div className="singlepost" key={i}>
    <div className="imgbox">
        <img src={dd.postpic} alt='image'/>
    </div>
@@ -58,16 +58,17 @@ const[blogs,setblogs]=useState([
            {dd.title}
        </h3>
        <p>{dd.desc}</p>
-   </div>
+       </div>
 
    <a href="" className="flex">
-   <BsArrowRightShort className='icon'/>
        Read More
+       <BsArrowRightShort className='icon'/>
        </a>
+       
 </div> 
-))}
 
- </div>
+))}
+</div>
 
             </div>
            </section>
