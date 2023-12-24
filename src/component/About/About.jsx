@@ -13,7 +13,7 @@ const About = () => {
                     Why Sailing?
                 </h2>
 
-                <div className='maincontains contains grid'>
+                <div className='maincontains contains'>
 
                     <div className='singleitem'>
                         <img src={island} alt='web image' className='imge'/>
@@ -47,7 +47,7 @@ const About = () => {
                 </div>
 
 <div className="videobox contains">
-<div className="cardcontains grid">
+<div className="cardcontains">
 
 
     <div className="cardname">

@@ -44,6 +44,23 @@ const Footer = () => {
     </li>
     </div>      
 
+    <div className="footlink">
+    <span className='linktitle'>
+        Help Desk
+    </span>
+    <li>
+        <a href=''>Destination</a>
+    </li>
+    <li>
+        <a href=''>Support</a>
+    </li>
+    <li>
+        <a href=''>Travel & Condition</a>
+    </li>
+    <li>
+        <a href=''>Privacy</a>
+    </li>
+    </div>
     
 
     <div className="footlink">

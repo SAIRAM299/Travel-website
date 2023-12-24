@@ -99,6 +99,9 @@
             padding: .6rem 1.5rem;
             color: var(--whiteColor);
             font-weight: 600;
+            &:hover{
+                background: var(--HoverColor);
+            }
            }
  
    }
@@ -119,7 +122,8 @@
                 gap: 1rem;
                 grid-template-columns: repeat(2,1fr);
                 .btn{
-                    transform: translateY(15px);
+                    transform: translateY(1.5rem);
+                    height: 3rem;
                 }
             }
         }
@@ -130,6 +134,7 @@
 @media screen and (min-width:556px) {
     .homy{
         .seccontains{
+           
 .homyname{
 .title{
     font-size: 2.5rem;
@@ -138,17 +143,48 @@
     font-size: 18px;
 }
 }
-
-            .dubby{
-                bottom: -100px;
-                width: 90%;
-                gap: 1rem;
-                grid-template-columns: repeat(2,1fr);
-                .btn{
-                    transform: translateY(15px);
-                }
-            }
         }
     }
     
 }
+
+@media screen and (min-width:720px) {
+    .homy{
+        .seccontains{
+.dubby{
+    bottom:-50px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.homyname{
+    padding: 1rem 10rem;
+    .title{
+        font-size: 3.5rem;
+        margin: auto;
+        line-height: 4rem;
+    }
+    .sub{
+       width: 70%;
+    }
+    }
+
+    }
+}  
+}
+
+@media screen and (min-width:1024px) {
+.homy{
+    .seccontains{
+        .homyname{
+            .sub{
+                font-size: 20px;
+            }
+        }
+        .dubby{
+            width: 70%;
+        }
+    }
+}
+
+}
+

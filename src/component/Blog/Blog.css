@@ -72,3 +72,20 @@
 }
 }
 }  
+
+@media screen and (min-width:480px) {
+    .blog{
+        .maincontains{
+            grid-template-columns: repeat(1,1fr);
+        }
+    }
+    
+}
+@media screen and (min-width:880px) {
+    .blog{
+        .maincontains{
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+    
+}

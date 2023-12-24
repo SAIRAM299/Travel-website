@@ -84,8 +84,39 @@ input{
 }
 
 @media screen and (min-width:556px){
-.maincontains{
+.maincontains {
+    grid-template-columns: repeat(2,1fr);
+}
+.singlepost{
     grid-template-columns: repeat(2,1fr);
 }
 }
     
+@media screen and (min-width:840px){
+    .maincontains{
+        grid-template-columns: repeat(3,1fr);
+    }
+    }
+
+    @media screen and (min-width:1240px){
+       .contains{
+        width: 75%;
+        margin: auto;
+       }
+       .sec{
+        padding: 5rem 0.3rem;
+       }
+       .secintro{
+        margin: 0 auto 3rem;
+       }
+       .secintro .secperu{
+        line-height: 2rem;
+        padding-bottom: 1rem;
+        font-size: 2.2rem;
+       }
+       .secintro p{
+        font-size: 15px;
+       }
+        }
+
+        
